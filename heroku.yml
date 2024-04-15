@@ -1,0 +1,5 @@
+build:
+  docker:
+    Madmax: Dockerfile
+run:
+  Madmax: python3 -m main.py

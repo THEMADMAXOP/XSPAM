@@ -1,0 +1,49 @@
+{
+    "name": "SPAM BOT",
+    "logo": "https://te.legra.ph/file/a088d7b65d3bf03dbddd1.jpg",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "PythonX",
+        "SpamBots"
+    ],
+    "repository": "https://github.com/THEMADMAXPRO/XSPAM",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": true
+      },
+      "CMD_HNDLR": {
+        "description": "Custom command handler.",
+        "value": ".",
+        "required": false
+      },
+      "SUDO_USERS": {
+        "description": "Sudo users id space by space",
+        "value": "",
+        "required": false
+      },
+      "OWNER_ID": {
+        "description": "Owner Id",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku api key to update your bot",
+        "value": "",
+        "required": false 
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your app name to Update your bot",
+        "value": "",
+        "required": false  
+      }
+    },
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
