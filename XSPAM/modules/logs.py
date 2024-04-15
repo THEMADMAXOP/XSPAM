@@ -2,7 +2,7 @@ import asyncio
 import heroku3
 
 from config import X1, SUDO_USERS, OWNER_ID, HEROKU_API_KEY, HEROKU_APP_NAME, CMD_HNDLR as hl
-from pyrogram import enums
+
 from datetime import datetime
 
 from telethon import events
