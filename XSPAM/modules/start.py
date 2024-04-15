@@ -8,7 +8,7 @@ START_BUTTON = [
         Button.url("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", "https://t.me/MADMAX_SPAM_BOT?startgroup=true")
     ],
     [
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/the_friendz"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/VOICEOFHEART0"),
         Button.url("ʀᴇᴘᴏ", "https://github.com/THEMADMAXPRO/XSPAM")
     ],
     [
