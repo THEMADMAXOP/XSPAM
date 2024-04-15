@@ -1,6 +1,6 @@
 from telethon import __version__, events, Button
 
-from config import X1
+from config import X1, OWNER_ID
 
 
 START_BUTTON = [
@@ -8,11 +8,14 @@ START_BUTTON = [
         Button.url("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", "https://t.me/MADMAX_SPAM_BOT?startgroup=true")
     ],
     [
+        Button.inline("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", data="help_back")
+    ],
+    [
         Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/VOICEOFHEART0"),
         Button.url("ʀᴇᴘᴏ", "https://github.com/THEMADMAXPRO/XSPAM")
     ],
     [
-        Button.inline("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", data="help_back")
+        InlineKeyboardButton(text="ᴍᴀᴅᴍᴀx", url=f"tg://user?id={OWNER_ID}"),
     ]
 ]
 
