@@ -19,7 +19,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 BOT_TOKEN = getenv("BOT_TOKEN", default=None)
 
 SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="6627636245").split()))
-for x in ALTRON:
+for x in MADMAX:
     SUDO_USERS.append(x)
 OWNER_ID = int(getenv("OWNER_ID", default="6627636245"))
 SUDO_USERS.append(OWNER_ID)
