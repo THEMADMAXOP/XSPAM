@@ -15,7 +15,7 @@ START_BUTTON = [
         Button.url("ʀᴇᴘᴏ", "https://github.com/THEMADMAXPRO/XSPAM")
     ],
     [
-        Button.url("ᴍᴀᴅᴍᴀx", "tg://user?id={OWNER_ID}"),
+        Button.url("ᴍᴀᴅᴍᴀx", "https://t.me/sashikant_xd"),
     ]
 ]
 
