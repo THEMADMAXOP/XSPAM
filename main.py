@@ -18,7 +18,7 @@ def load_plugins(plugin_name):
     load.logger = logging.getLogger(plugin_name)
     spec.loader.exec_module(load)
     sys.modules["XSPAM.modules." + plugin_name] = load
-    print("♥︎ Xspam has Imported " + plugin_name)
+    print("♥︎ XSPAM has Imported " + plugin_name)
 
 
 files = glob.glob("XSPAM/modules/*.py")
