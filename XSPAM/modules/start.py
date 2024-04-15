@@ -1,5 +1,4 @@
 from telethon import __version__, events, Button
-from pyrogram.types import InlineKeyboardButton
 
 from config import X1, OWNER_ID
 
@@ -16,7 +15,7 @@ START_BUTTON = [
         Button.url("ʀᴇᴘᴏ", "https://github.com/THEMADMAXPRO/XSPAM")
     ],
     [
-        InlineKeyboardButton(text="ᴍᴀᴅᴍᴀx", url=f"tg://user?id={OWNER_ID}"),
+        Button.url("ᴍᴀᴅᴍᴀx", "tg://user?id={OWNER_ID}"),
     ]
 ]
 
