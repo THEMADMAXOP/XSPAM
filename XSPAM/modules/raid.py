@@ -5,7 +5,7 @@ from random import choice
 from telethon import events
 
 from config import X1, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
-from AltBots.data import RAID, REPLYRAID, MADMAX, MRAID, SRAID, CRAID, MADMAX
+from XSPAM.data import RAID, REPLYRAID, MADMAX, MRAID, SRAID, CRAID, MADMAX
 
 REPLY_RAID = []
 
