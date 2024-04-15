@@ -1,4 +1,5 @@
 from telethon import __version__, events, Button
+from pyrogram.types import InlineKeyboardButton
 
 from config import X1, OWNER_ID
 
