@@ -12,10 +12,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"» ᴍᴀᴅᴍᴀx ᴏᴘ")
+        altron = await e.reply(f"» __ᴍᴀᴅᴍᴀx__")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"✦ ᴘɪɴɢ sᴛᴀᴛs ⏤͟͟͞͞★\n➥ `{mp} ᴍꜱ`")
+        await altron.edit(f"__ᴍᴀᴅᴍᴀx ᴘɪɴɢ__\n» `{mp} ᴍꜱ`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -26,6 +26,7 @@ async def restart(e):
             await X1.disconnect()
         except Exception:
             pass
+        
 
         execl(sys.executable, sys.executable, *sys.argv)
 
