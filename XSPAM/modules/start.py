@@ -20,7 +20,7 @@ START_BUTTON = [
 ]
 
 
-@X1.on(events.NewMessage(pattern="/start"))
+@X1.on(events.NewMessage(pattern="/sstart"))
 async def start(event):              
     if event.is_private:
         Altbot = await event.client.get_me()
