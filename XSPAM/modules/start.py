@@ -5,7 +5,7 @@ from config import X1, OWNER_ID
 
 START_BUTTON = [
     [
-        Button.url("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", "https://t.me/MADMAX_SPAM_BOT?startgroup=true")
+        Button.url("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", "https://t.me/EMMA_MUSICOP_BOT?startgroup=true")
     ],
     [
         Button.inline("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", data="help_back")
@@ -20,7 +20,7 @@ START_BUTTON = [
 ]
 
 
-@X1.on(events.NewMessage(pattern="/start"))
+@X1.on(events.NewMessage(pattern="/sstart"))
 async def start(event):              
     if event.is_private:
         Altbot = await event.client.get_me()
